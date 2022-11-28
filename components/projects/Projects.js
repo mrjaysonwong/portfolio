@@ -7,13 +7,10 @@ import MovieDomDetails from './moviedom/Details';
 import PortfolioDetails from './portfolio/Details';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import quizzical from '../../public/quizzical.png'
-import moviedom from '../../public/moviedom.png'
-import portfolio from '../../public/portfolio.png'
 
-const myLoader = ({ src, width, quality }) => {
-  return `${src}?w=${width}&q=${quality || 75}`;
-};
+// const myLoader = ({ src, width, quality }) => {
+//   return `${src}?w=${width}&q=${quality || 75}`;
+// };
 
 const Wrapper = styled.div`
   width: min(80%, 100vw);
@@ -65,6 +62,7 @@ const ImageWrapper = styled.div`
 
   img {
     transition: all 0.5s ease;
+    width: 100%;
   }
 `;
 
@@ -128,11 +126,10 @@ const Projects = () => {
             <Container>
               <ImageWrapper>
                 <Image
-                  loader={myLoader}
-                  src={quizzical}
-                  alt="Quizzical App snapshot"
+                  src="/images/quizzical.png"
                   width={600}
                   height={300}
+                  alt="quizzical snapshot"
                   priority
                 />
               </ImageWrapper>
@@ -149,11 +146,10 @@ const Projects = () => {
             <Container>
               <ImageWrapper id="moviedom-image-wrapper">
                 <Image
-                  loader={myLoader}
-                  src={moviedom}
-                  alt="MovieDom App snapshot"
+                  src="/images/moviedom.png"
                   width={600}
                   height={300}
+                  alt="moviedom snapshot"
                   priority
                 />
               </ImageWrapper>
@@ -164,11 +160,10 @@ const Projects = () => {
             <Container>
               <ImageWrapper>
                 <Image
-                  loader={myLoader}
-                  src={portfolio}
-                  alt="My Portfolio snapshot"
+                  src="/images/portfolio.png"
                   width={600}
                   height={300}
+                  alt="portfolio snapshot"
                   priority
                 />
               </ImageWrapper>
