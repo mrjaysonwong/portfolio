@@ -126,7 +126,7 @@ const Projects = () => {
               <ImageWrapper>
                 <Image
                   loader={myLoader}
-                  src={'/images/quizzical.png'}
+                  src={'/quizzical.png'}
                   alt="Quizzical App snapshot"
                   width={600}
                   height={300}
@@ -147,7 +147,7 @@ const Projects = () => {
               <ImageWrapper id="moviedom-image-wrapper">
                 <Image
                   loader={myLoader}
-                  src={'/images/moviedom.png'}
+                  src={'/moviedom.png'}
                   alt="MovieDom App snapshot"
                   width={600}
                   height={300}
@@ -162,7 +162,7 @@ const Projects = () => {
               <ImageWrapper>
                 <Image
                   loader={myLoader}
-                  src={'/images/portfolio.png'}
+                  src={'/portfolio.png'}
                   alt="My Portfolio snapshot"
                   width={600}
                   height={300}
