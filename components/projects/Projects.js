@@ -7,6 +7,9 @@ import MovieDomDetails from './moviedom/Details';
 import PortfolioDetails from './portfolio/Details';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import quizzical from '../../public/quizzical.png'
+import moviedom from '../../public/moviedom.png'
+import portfolio from '../../public/portfolio.png'
 
 const myLoader = ({ src, width, quality }) => {
   return `${src}?w=${width}&q=${quality || 75}`;
@@ -126,7 +129,7 @@ const Projects = () => {
               <ImageWrapper>
                 <Image
                   loader={myLoader}
-                  src={'/quizzical.png'}
+                  src={quizzical}
                   alt="Quizzical App snapshot"
                   width={600}
                   height={300}
@@ -147,7 +150,7 @@ const Projects = () => {
               <ImageWrapper id="moviedom-image-wrapper">
                 <Image
                   loader={myLoader}
-                  src={'/moviedom.png'}
+                  src={moviedom}
                   alt="MovieDom App snapshot"
                   width={600}
                   height={300}
@@ -162,7 +165,7 @@ const Projects = () => {
               <ImageWrapper>
                 <Image
                   loader={myLoader}
-                  src={'/portfolio.png'}
+                  src={portfolio}
                   alt="My Portfolio snapshot"
                   width={600}
                   height={300}
