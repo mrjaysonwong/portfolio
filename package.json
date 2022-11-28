@@ -9,9 +9,28 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "13.0.4",
+    "@emailjs/browser": "^3.10.0",
+    "@emotion/react": "^11.10.5",
+    "@emotion/server": "^11.10.0",
+    "@emotion/styled": "^11.10.5",
+    "@mantine/carousel": "^5.8.3",
+    "@mantine/core": "^5.8.2",
+    "@mantine/hooks": "^5.8.2",
+    "@mantine/next": "^5.8.2",
+    "@tabler/icons": "^1.112.0",
+    "aos": "^2.3.4",
+    "embla-carousel-autoplay": "^7.0.5",
+    "embla-carousel-react": "^7.0.5",
+    "formik": "^2.2.9",
+    "next": "^12.3.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.6.0",
+    "react-scroll": "^1.8.8",
+    "react-social-icons": "^5.15.0",
+    "sharp": "^0.31.2",
+    "tabler-icons-react": "^1.55.0",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "eslint": "8.28.0",
