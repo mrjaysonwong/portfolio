@@ -164,7 +164,7 @@ const Navbar = () => {
             onClick={() => handleClick()}
             className="logo"
           >
-            <Image width={180} height={40} src="/jwlogo.png" priority />
+            <Image width={180} height={40} src="/jwlogo.png" alt='My Logo' priority />
           </Link>
 
           <NavMenuWrapper sidebar={sidebar} offset={offset}>

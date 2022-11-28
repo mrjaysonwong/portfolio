@@ -7,10 +7,13 @@ import MovieDomDetails from './moviedom/Details';
 import PortfolioDetails from './portfolio/Details';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import quizzical from '@public/images/quizzical.png';
+import moviedom from '@public/images/moviedom.png';
+import portfolio from '@public/images/portfolio.png';
 
-// const myLoader = ({ src, width, quality }) => {
-//   return `${src}?w=${width}&q=${quality || 75}`;
-// };
+const myLoader = ({ src, width, quality }) => {
+  return `${src}?w=${width}&q=${quality || 75}`;
+};
 
 const Wrapper = styled.div`
   width: min(80%, 100vw);
@@ -126,10 +129,11 @@ const Projects = () => {
             <Container>
               <ImageWrapper>
                 <Image
-                  src="/images/quizzical.png"
+                  loader={myLoader}
+                  src={quizzical}
                   width={600}
                   height={300}
-                  alt="quizzical snapshot"
+                  alt="Quizzical App snapshot"
                   priority
                 />
               </ImageWrapper>
@@ -146,10 +150,11 @@ const Projects = () => {
             <Container>
               <ImageWrapper id="moviedom-image-wrapper">
                 <Image
-                  src="/images/moviedom.png"
+                  loader={myLoader}
+                  src={moviedom}
                   width={600}
                   height={300}
-                  alt="moviedom snapshot"
+                  alt="MovieDom App snapshot"
                   priority
                 />
               </ImageWrapper>
@@ -160,10 +165,11 @@ const Projects = () => {
             <Container>
               <ImageWrapper>
                 <Image
-                  src="/images/portfolio.png"
+                  loader={myLoader}
+                  src={portfolio}
                   width={600}
                   height={300}
-                  alt="portfolio snapshot"
+                  alt="My Portfolio snapshot"
                   priority
                 />
               </ImageWrapper>

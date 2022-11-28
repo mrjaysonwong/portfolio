@@ -12,6 +12,7 @@ function MyApp({ Component, pageProps }) {
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"
         />
+        <meta charSet="utf-8" />
         <meta name="author" content="Mr. Jayson Wong" />
         <meta
           name="description"

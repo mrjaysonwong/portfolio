@@ -25,9 +25,6 @@ const nextConfig = {
     templateId: process.env.FORMIK_TEMPLATE_ID,
     userId: process.env.FORMIK_USER_ID,
   },
-  images: {
-    unoptimized: true,
-  },
 };
 
 module.exports = nextConfig;
