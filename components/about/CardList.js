@@ -123,7 +123,7 @@ const CardList = () => {
             </Text>
 
             <Text mt="xs" color="dimmed" size="lg">
-              Websites don't have to be static, I love making pages come to
+              Websites don&apos;t have to be static, I love making pages come to
               life.
             </Text>
           </Card>

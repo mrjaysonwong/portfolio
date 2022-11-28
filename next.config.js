@@ -25,6 +25,9 @@ const nextConfig = {
     templateId: process.env.FORMIK_TEMPLATE_ID,
     userId: process.env.FORMIK_USER_ID,
   },
+  images: {
+    domains: ['res.cloudinary.com'],
+  },
 };
 
 module.exports = nextConfig;
