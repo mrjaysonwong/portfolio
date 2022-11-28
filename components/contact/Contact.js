@@ -21,7 +21,7 @@ const Contact = () => {
           <h1 className="title" data-aos="slide-right" data-aos-once>
             Contact
           </h1>
-          <h2 className="sub-title contact" data-aos="slide-left" data-aos-once>
+          <h2 className="sub-title contact" data-aos="slide-up" data-aos-once>
             Have a question or want to work together? <br />
             Get in touch
           </h2>
