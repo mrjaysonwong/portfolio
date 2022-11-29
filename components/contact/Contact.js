@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 const Wrapper = styled.div`
   width: min(90%, 100vw);
   margin-inline: auto;
-  margin-top: 5rem;
+  padding: 5rem 0;
 `;
 
 const Contact = () => {

@@ -15,7 +15,7 @@ const myLoader = ({ src, width, quality }) => {
 const Wrapper = styled.div`
   width: min(80%, 100vw);
   margin-inline: auto;
-  margin-top: 5rem;
+  padding: 5rem 0;
 `;
 
 const ProjectWrapper = styled.div`

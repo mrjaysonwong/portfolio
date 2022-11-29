@@ -8,7 +8,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const Wrapper = styled.div`
-  margin-top: 5rem;
+  margin: 5rem 0;
 `;
 
 const About = () => {
