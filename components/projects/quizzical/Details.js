@@ -36,9 +36,9 @@ const Details = () => {
         </Badge>
       </div>
       <p className="description">
-        This is a trivia quiz app. It asks questions on what category you
-        selected and you just have to pick you answers from the options
-        provided. It uses its data from <br />
+        This is a trivia quiz app. It asks questions about what category you
+        have selected and you just have to pick your answers from the options
+        provided. It uses its data from It uses its data from <br />
         <a
           href="https://opentdb.com/"
           target="_blank"
