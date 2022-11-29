@@ -9,7 +9,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const myLoader = ({ src, width, quality }) => {
-  return `${src}?w=${width}&q=${quality || 75}`;
+  return `${src}?w=${width}&q=${quality || 85}`;
 };
 
 const Wrapper = styled.div`
@@ -126,6 +126,7 @@ const Projects = () => {
             <Container>
               <ImageWrapper>
                 <Image
+                  loader={myLoader}
                   src="https://res.cloudinary.com/dc6ae5jse/image/upload/v1669661103/quizzical_nv0lx9.png"
                   width={600}
                   height={300}
@@ -146,6 +147,7 @@ const Projects = () => {
             <Container>
               <ImageWrapper id="moviedom-image-wrapper">
                 <Image
+                  loader={myLoader}
                   src="https://res.cloudinary.com/dc6ae5jse/image/upload/v1669661109/moviedom_pty8nk.png"
                   width={600}
                   height={300}
@@ -159,6 +161,7 @@ const Projects = () => {
             <Container>
               <ImageWrapper>
                 <Image
+                  loader={myLoader}
                   src="https://res.cloudinary.com/dc6ae5jse/image/upload/v1669661104/portfolio_mwedrf.png"
                   width={600}
                   height={300}
