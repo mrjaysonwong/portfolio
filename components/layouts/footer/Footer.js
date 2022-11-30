@@ -50,7 +50,7 @@ const Footer = () => {
           <IconWrapper>
             <span>
               <a
-                href="https://linkedin.com/in/mrjaysonwong"
+                href="https://facebook.com/mrjaysonwong"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -83,7 +83,7 @@ const Footer = () => {
             </span>
             <span>
               <a
-                href="https://facebook.com/mrjaysonwong"
+                href="https://linkedin.com/in/mrjaysonwong"
                 target="_blank"
                 rel="noopener noreferrer"
               >
