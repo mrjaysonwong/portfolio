@@ -5,6 +5,7 @@ import Autoplay from 'embla-carousel-autoplay';
 import { useStyles } from '@utils/CarouselControl';
 import * as SiIcons from 'react-icons/si';
 import { IconBrandMantine } from '@tabler/icons';
+import { Icon } from '@iconify/react';
 import { Tooltip } from '@mantine/core';
 import { devices } from '@utils/devices';
 
@@ -165,6 +166,18 @@ const Technologies = () => {
             <Tooltip label="MantineUI" position="left" color="violet" withArrow>
               <i>
                 <IconBrandMantine size="76px" />
+              </i>
+            </Tooltip>
+          </StyledSlide>
+          <StyledSlide size="20%">
+            <Tooltip
+              label="Postman API"
+              position="left"
+              color="violet"
+              withArrow
+            >
+              <i>
+                <Icon icon="cib:postman" />
               </i>
             </Tooltip>
           </StyledSlide>
